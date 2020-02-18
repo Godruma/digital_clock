@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    background: whitesmoke;
+    background: url(./pattern.png);
 }
 
 .main {
@@ -14,6 +16,8 @@ body {
     width: 450px;
     margin: 100px auto;
     position: relative;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 .badge {
@@ -26,5 +30,16 @@ body {
     color: white;
     position: absolute;
     top: -10px;
-    left: 40%;
+    left: 37%;
+    border-radius: 3px;
+}
+
+.clock {
+    background: blanchedalmond;
+    text-align: center;
+    font-size: 108px;
+    height: 100%;
+    padding-top: 17px;
+    font-family: Odibee Sans;
+    border-radius: 10px;
 }
