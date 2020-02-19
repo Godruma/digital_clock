@@ -1,45 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: url(./pattern.png);
+  background: url(./pattern.png);
 }
 
 .main {
-    background: #ccc;
-    height: 200px;
-    width: 450px;
-    margin: 100px auto;
-    position: relative;
-    padding: 30px;
-    border-radius: 15px;
+  background: #ccc;
+  height: 200px;
+  width: 450px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 15px;
 }
 
 .badge {
-    width: 108px;
-    font-family: sans-serif;
-    font-weight: bold;
-    background: yellowgreen;
-    padding: 5px 10px;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: -10px;
-    left: 37%;
-    border-radius: 3px;
+  width: 108px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background: yellowgreen;
+  padding: 5px 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 37%;
+  border-radius: 3px;
 }
 
 .clock {
-    background: blanchedalmond;
-    text-align: center;
-    font-size: 108px;
-    height: 100%;
-    padding-top: 17px;
-    font-family: Odibee Sans;
-    border-radius: 10px;
+  background: blanchedalmond;
+  text-align: center;
+  font-size: 108px;
+  height: 100%;
+  padding-top: 17px;
+  font-family: Odibee Sans;
+  border-radius: 10px;
 }
